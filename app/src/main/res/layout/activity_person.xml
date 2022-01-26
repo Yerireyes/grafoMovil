@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: \n Nombre: \n Apellido: \n Edad: \n Correo: \n Telefono: "
+
+        android:textSize="9pt"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20pt"/>
+    <TextView
+        android:id="@+id/datosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="9pt"
+        android:layout_toRightOf="@id/textView"/>
+
+
+    <Button
+        android:id="@+id/botonEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="5pt"
+        android:text="Eliminar Usuario"
+        android:layout_marginLeft="880px"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_below="@id/textView" />
+
+    <TextView
+        android:id="@+id/añadirAmigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir Amigos"
+        android:textSize="9pt"
+        android:layout_below="@id/listview" />
+
+    <ListView
+        android:id="@+id/listViewBuscarAmigos"
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        android:layout_below="@id/añadirAmigos"
+        />
+
+
+</RelativeLayout>
