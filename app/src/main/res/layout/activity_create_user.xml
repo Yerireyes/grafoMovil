@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nombre"
+        android:hint="Nombre"
         android:layout_marginLeft="300px"/>
 
     <EditText
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Apellido"
+        android:hint="Apellido"
         android:layout_below="@id/editTextNombre"
         android:layout_marginLeft="300px"/>
 
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="edad"
+        android:hint="edad"
         android:layout_below="@id/editTextApellido"
         android:layout_marginLeft="300px"/>
 
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Correo"
+        android:hint="Correo"
         android:layout_below="@id/editTextEdad"
         android:layout_marginLeft="300px"/>
 
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Telefono"
+        android:hint="Telefono"
         android:layout_below="@id/editTextCorreo"
         android:layout_marginLeft="300px"/>
 
@@ -59,7 +59,7 @@
         android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Crear"
         android:layout_marginTop="800px"
         android:layout_marginLeft="500px"/>
 
